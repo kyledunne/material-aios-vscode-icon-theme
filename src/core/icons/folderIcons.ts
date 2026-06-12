@@ -754,6 +754,20 @@ export const folderIcons: FolderTheme[] = [
         ],
       },
       {
+        name: 'folder-complete',
+        folderNames: ['completed', 'complete', 'done', 'finished'],
+      },
+      {
+        name: 'folder-canceled',
+        folderNames: [
+          'canceled',
+          'cancelled',
+          'abandoned',
+          'dropped',
+          'rejected',
+        ],
+      },
+      {
         name: 'folder-backup',
         folderNames: [
           'bkp',
