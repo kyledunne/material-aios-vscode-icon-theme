@@ -1316,7 +1316,7 @@ export const folderIcons: FolderTheme[] = [
         name: 'folder-luau',
         folderNames: ['luau'],
       },
-      { name: 'folder-obsidian', folderNames: ['obsidian'] },
+      { name: 'folder-obsidian', folderNames: ['obsidian', 'obsidian-vault'] },
       { name: 'folder-trash', folderNames: ['trash'] },
       { name: 'folder-cline', folderNames: ['cline_docs'] },
       { name: 'folder-liquibase', folderNames: ['liquibase'] },
