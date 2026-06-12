@@ -1362,6 +1362,18 @@ export const folderIcons: FolderTheme[] = [
         folderNames: ['.codex'],
       },
       {
+        name: 'folder-memory',
+        folderNames: ['memory'],
+      },
+      {
+        name: 'folder-working',
+        folderNames: ['working'],
+      },
+      {
+        name: 'folder-references',
+        folderNames: ['references'],
+      },
+      {
         name: 'folder-cursor',
         folderNames: ['.cursor'],
         light: true,
