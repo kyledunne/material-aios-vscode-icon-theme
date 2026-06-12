@@ -13,7 +13,15 @@ export const folderIcons: FolderTheme[] = [
       { name: 'folder-rust', folderNames: ['rust', '.cargo'] },
       {
         name: 'folder-robot',
-        folderNames: ['bot', 'bots', 'robot', 'robots', 'agent', 'agents'],
+        folderNames: [
+          'bot',
+          'bots',
+          'robot',
+          'robots',
+          'agent',
+          'agents',
+          'automations',
+        ],
       },
       {
         name: 'folder-src',
@@ -736,7 +744,14 @@ export const folderIcons: FolderTheme[] = [
       },
       {
         name: 'folder-archive',
-        folderNames: ['arc', 'arcs', 'archive', 'archives', 'archival'],
+        folderNames: [
+          'arc',
+          'arcs',
+          'archive',
+          'archives',
+          'archival',
+          'working-archive',
+        ],
       },
       {
         name: 'folder-backup',
@@ -1341,6 +1356,10 @@ export const folderIcons: FolderTheme[] = [
       {
         name: 'folder-claude',
         folderNames: ['.claude'],
+      },
+      {
+        name: 'folder-codex',
+        folderNames: ['.codex'],
       },
       {
         name: 'folder-cursor',
