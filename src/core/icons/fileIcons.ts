@@ -3634,6 +3634,10 @@ export const fileIcons: FileIcons = {
       fileNames: ['AGENTS.md'],
     },
     {
+      name: 'memory',
+      fileNames: ['MEMORY.md'],
+    },
+    {
       name: 'cursor',
       fileNames: [
         '.cursorignore',
