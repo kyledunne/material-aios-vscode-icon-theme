@@ -1,7 +1,7 @@
 {
-  "name": "material-icon-theme",
-  "displayName": "Material Icon Theme",
-  "description": "Material Design Icons for Visual Studio Code",
+  "name": "aios-icon-theme",
+  "displayName": "AIOS Icon Theme",
+  "description": "Material-based file & folder icons, customized for the AIOS personal AI operating system. A fork of Material Icon Theme.",
   "version": "5.35.0",
   "license": "MIT",
   "scripts": {
@@ -30,26 +30,21 @@
     "postpublish": "git checkout package.json && git checkout README.md",
     "prepare": "husky"
   },
-  "publisher": "PKief",
+  "publisher": "kyledunne",
   "author": {
-    "name": "Material Extensions",
-    "email": "material-icons-extensions@googlegroups.com",
-    "url": "https://github.com/material-extensions"
-  },
-  "funding": "https://github.com/sponsors/material-extensions",
-  "sponsor": {
-    "url": "https://github.com/sponsors/material-extensions"
+    "name": "Kyle Dunne",
+    "url": "https://github.com/kyledunne"
   },
   "engines": {
     "vscode": "^1.55.0"
   },
-  "homepage": "https://github.com/material-extensions/vscode-material-icon-theme/blob/main/README.md",
+  "homepage": "https://github.com/kyledunne/material-aios-vscode-icon-theme/blob/main/README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/material-extensions/vscode-material-icon-theme.git"
+    "url": "git+https://github.com/kyledunne/material-aios-vscode-icon-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/material-extensions/vscode-material-icon-theme/issues"
+    "url": "https://github.com/kyledunne/material-aios-vscode-icon-theme/issues"
   },
   "icon": "logo.png",
   "galleryBanner": {
@@ -64,6 +59,7 @@
     "theme",
     "material",
     "icon-theme",
+    "aios",
     "customization"
   ],
   "extensionKind": [
@@ -87,65 +83,65 @@
   "contributes": {
     "iconThemes": [
       {
-        "id": "material-icon-theme",
-        "label": "Material Icon Theme",
+        "id": "aios-icon-theme",
+        "label": "AIOS Icon Theme",
         "path": "./dist/material-icons.json",
         "_watch": true
       }
     ],
     "commands": [
       {
-        "command": "material-icon-theme.activateIcons",
+        "command": "aios-icon-theme.activateIcons",
         "title": "%command.activateIcons%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.toggleIconPacks",
+        "command": "aios-icon-theme.toggleIconPacks",
         "title": "%command.toggleIconPacks%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.changeFolderTheme",
+        "command": "aios-icon-theme.changeFolderTheme",
         "title": "%command.changeFolderTheme%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.changeFolderColor",
+        "command": "aios-icon-theme.changeFolderColor",
         "title": "%command.changeFolderColor%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.changeRootFolderColor",
+        "command": "aios-icon-theme.changeRootFolderColor",
         "title": "%command.changeRootFolderColor%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.changeFileColor",
+        "command": "aios-icon-theme.changeFileColor",
         "title": "%command.changeFileColor%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.restoreDefaultConfig",
+        "command": "aios-icon-theme.restoreDefaultConfig",
         "title": "%command.restoreDefaultConfig%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.toggleExplorerArrows",
+        "command": "aios-icon-theme.toggleExplorerArrows",
         "title": "%command.toggleExplorerArrows%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.changeOpacity",
+        "command": "aios-icon-theme.changeOpacity",
         "title": "%command.changeOpacity%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.toggleGrayscale",
+        "command": "aios-icon-theme.toggleGrayscale",
         "title": "%command.toggleGrayscale%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.changeSaturation",
+        "command": "aios-icon-theme.changeSaturation",
         "title": "%command.changeSaturation%",
         "enablement": "!isWeb"
       }
@@ -154,7 +150,7 @@
       "type": "object",
       "title": "%configuration.title%",
       "properties": {
-        "material-icon-theme.activeIconPack": {
+        "aios-icon-theme.activeIconPack": {
           "type": "string",
           "default": "angular",
           "description": "%configuration.activeIconPack%",
@@ -185,27 +181,27 @@
             "none"
           ]
         },
-        "material-icon-theme.files.associations": {
+        "aios-icon-theme.files.associations": {
           "type": "object",
           "default": {},
           "description": "%configuration.files.associations%"
         },
-        "material-icon-theme.folders.associations": {
+        "aios-icon-theme.folders.associations": {
           "type": "object",
           "default": {},
           "description": "%configuration.folders.associations%"
         },
-        "material-icon-theme.rootFolders.associations": {
+        "aios-icon-theme.rootFolders.associations": {
           "type": "object",
           "default": {},
           "description": "%configuration.rootFolders.associations%"
         },
-        "material-icon-theme.languages.associations": {
+        "aios-icon-theme.languages.associations": {
           "type": "object",
           "default": {},
           "description": "%configuration.languages.associations%"
         },
-        "material-icon-theme.files.customClones": {
+        "aios-icon-theme.files.customClones": {
           "type": "array",
           "default": [],
           "items": {
@@ -282,7 +278,7 @@
           },
           "description": "%configuration.customClones%"
         },
-        "material-icon-theme.languages.customClones": {
+        "aios-icon-theme.languages.customClones": {
           "type": "array",
           "default": [],
           "items": {
@@ -351,7 +347,7 @@
           },
           "description": "%configuration.customClones%"
         },
-        "material-icon-theme.folders.customClones": {
+        "aios-icon-theme.folders.customClones": {
           "type": "array",
           "default": [],
           "items": {
@@ -391,7 +387,7 @@
           },
           "description": "%configuration.customClones%"
         },
-        "material-icon-theme.folders.theme": {
+        "aios-icon-theme.folders.theme": {
           "type": "string",
           "default": "specific",
           "description": "%configuration.folders.theme%",
@@ -406,49 +402,49 @@
             "none"
           ]
         },
-        "material-icon-theme.folders.color": {
+        "aios-icon-theme.folders.color": {
           "type": "string",
           "default": "#90a4ae",
           "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
           "description": "%configuration.folders.color%"
         },
-        "material-icon-theme.rootFolders.color": {
+        "aios-icon-theme.rootFolders.color": {
           "type": "string",
           "default": "#90a4ae",
           "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
           "description": "%configuration.rootFolders.color%"
         },
-        "material-icon-theme.files.color": {
+        "aios-icon-theme.files.color": {
           "type": "string",
           "default": "#90a4ae",
           "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
           "description": "%configuration.files.color%"
         },
-        "material-icon-theme.opacity": {
+        "aios-icon-theme.opacity": {
           "type": "number",
           "default": 1,
           "minimum": 0,
           "maximum": 1,
           "description": "%configuration.opacity%"
         },
-        "material-icon-theme.hidesExplorerArrows": {
+        "aios-icon-theme.hidesExplorerArrows": {
           "type": "boolean",
           "default": false,
           "description": "%configuration.hidesExplorerArrows%"
         },
-        "material-icon-theme.saturation": {
+        "aios-icon-theme.saturation": {
           "type": "number",
           "default": 1,
           "minimum": 0,
           "maximum": 1,
           "description": "%configuration.saturation%"
         },
-        "material-icon-theme.enableLogging": {
+        "aios-icon-theme.enableLogging": {
           "type": "boolean",
           "default": false,
           "description": "%configuration.enableLogging%"
         },
-        "material-icon-theme.logLevel": {
+        "aios-icon-theme.logLevel": {
           "type": "string",
           "default": "info",
           "enum": [
