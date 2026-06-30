@@ -1,8 +1,8 @@
 {
   "name": "aios-icon-theme",
   "displayName": "AIOS Icon Theme",
-  "description": "Material-based file & folder icons, customized for the AIOS personal AI operating system. A fork of Material Icon Theme.",
-  "version": "5.35.0",
+  "description": "File & folder icons for an AIOS (personal AI operating system). A separate theme based on Material Icon Theme, with extra AIOS-specific icons.",
+  "version": "5.35.1",
   "license": "MIT",
   "scripts": {
     "precompile": "rimraf dist && bun run verify",
